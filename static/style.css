@@ -1,0 +1,251 @@
+* {
+margin:0;
+padding:0;
+}
+
+body {
+b1ackground:#F8F7F6;
+background:#FFEACA;
+color:#444;
+font:13px/18px "Trebuchet MS", Tahoma, Arial, sans-serif;
+m1in-height:100%;
+padding:5px;
+position:relative;
+w1idth:99%;
+margin: 0;
+}
+
+a {
+color:#0094D6;
+}
+
+a:hover {
+color:#F70;
+}
+
+a img {
+border:0;
+}
+
+p {
+margin:0;
+padding:8px 0;
+}
+
+h1,h2,h3 {
+color:#F70;
+padding-top:6px;
+}
+
+h2 {
+c1olor:#0094D6;
+color:#F70;
+font:normal 19px "Trebuchet MS", Tahoma, Arial, sans-serif;
+line-height:25px;
+margin-bottom:4px;
+text-align:left;
+}
+
+h2 a {
+border-bottom:1px solid #F70;
+text-decoration:none;
+}
+
+h2 a:hover {
+border-bottom:1px dashed #0094D6;
+text-decoration:none;
+}
+
+tt {
+background:#F7F7F7;
+border:1px dashed #E6E6E6;
+border-width:1px 0;
+padding:0 3px;
+}
+
+ul {
+list-style: none;
+}
+
+table {
+border:1px solid #d6d3d3;
+border-collapse:collapse;
+margin:5px 1px;
+width: 95%;
+}
+
+caption {
+color:#F70;
+font:17px "Trebuchet MS", Tahoma, Arial, sans-serif;
+height:25px;
+text-align:left;
+text-indent:10px;
+}
+
+thead th {
+border-right:1px solid #d6d3d3;
+font-size:13px;
+height:20px;
+padding:1px 3px;
+text-align:left;
+}
+
+tbody tr.odd {
+background:#FFF;
+}
+
+tbody th,td {
+border-right:1px solid #d6d3d3;
+border-top:1px solid #d6d3d3;
+font-size:13px;
+padding:1px 3px;
+text-align:left;
+}
+
+form {
+margin:15px 0 0;
+width: 790px;
+}
+
+textarea {
+-moz-border-radius:3px;
+-webkit-border-radius:3px;
+background:#FFF;
+border:1px solid #d6d3d3;
+border-radius:3px;
+height:181px;
+padding:0 0 0 4px;
+}
+
+label {
+font-weight:bold;
+padding-left:5px;
+}
+
+input {
+-moz-border-radius:3px;
+-webkit-border-radius:3px;
+background:#FFF;
+border:1px solid #D6D3D3;
+border-radius:3px;
+font-size:13px;
+height:20px;
+margin-bottom:3px;
+padding-left:1px;
+}
+
+input,textarea,select,option {
+color:#555;
+font:13px "Trebuchet MS", Tahoma, Arial, sans-serif;
+}
+
+input[type=checkbox] {
+width:18px;
+}
+
+input[type=radio] {
+width:18px;
+}
+
+input[type=submit] {
+background:#E4E0D8;
+font-color:#FFF;
+width: 100px;
+}
+
+select {
+-moz-border-radius:3px;
+-webkit-border-radius:3px;
+background:#FFF;
+border:1px solid #D6D3D3;
+border-radius:3px;
+height:20px;
+m1argin-bottom:-1px;
+m1argin-top:-1px;
+}
+
+option {
+background:#FFF;
+padding-left:5px;
+padding-right:5px;
+}
+
+
+textarea:hover,input:hover,select:hover {
+border:1px solid #0094D6;
+}
+
+textarea:focus,input:focus,select:focus {
+border:1px solid #F70;
+}
+
+fieldset {
+padding-left: 0.2em;
+padding-bottom: 0.3em;
+}
+
+.wrap3 {
+float:left;
+width:66%;
+}
+
+.col1_3 {
+float:left;
+width:50%;
+}
+
+.col2_3 {
+margin-left:50%;
+}
+
+.col3_3 {
+margin-left:66%;
+}
+
+.wrap2 {
+float:left;
+width:50%;
+}
+
+.col1_2 {
+float:left;
+width:100%;
+}
+
+.col2_2 {
+margin-left:50%;
+}
+
+.money {
+font-style: italic;
+text-align: right;
+white-space:nowrap;
+}
+
+.quantity {
+text-align: right;
+white-space:nowrap;
+}
+
+.nowrap {
+white-space:nowrap;
+}
+
+.field {
+overflow:hidden;
+padding-top: 3px;
+padding-left: 3px;
+padding-bottom: 1px;
+}
+
+.field img, .field input
+{
+vertical-align:middle;
+}
+
+.error_icon {
+position: absolute;
+display: inline;
+margin-left: 0.3em;
+}
+

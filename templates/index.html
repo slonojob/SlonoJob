@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block title %}USER STATISTICS{% endblock %}
+
+
+{% block content %}
+
+
+<table border=1 style="width:400px">
+
+<tr>
+<th>User
+<th>Messages
+</tr>
+    
+{% for user in users %}
+    <tr>
+    <td><a href="/user/{{user.pk}}">{{user.name}}</a>
+    <td>{{user.history_len}}
+    </tr>
+{% endfor %}
+
+</table>
+
+
+{% endblock %}

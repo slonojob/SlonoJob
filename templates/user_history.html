@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block title %}USER HISTORY{% endblock %}
+
+
+{% block content %}
+
+
+<table border=1 style="width:800px">
+
+<tr>
+<th>IS INCOMING
+<th>Message
+</tr>
+
+{% for hist in history %}
+    <tr>
+    <td>{{hist.is_incoming}}
+    <td>{{hist.text}}
+    </tr>
+{% endfor %}
+
+</table>
+
+
+{% endblock %}
