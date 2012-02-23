@@ -254,6 +254,8 @@ if __name__ == "__main__":
             time.sleep(0.5)
     except KeyboardInterrupt:
         logger.info("shutting down...")
+        slono_stream.disconnect()
+        my_stream.disconnect()
         thread_pool.close()
         thread_pool.join()
         logger.info("shutdown complete!")
